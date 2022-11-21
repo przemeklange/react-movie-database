@@ -1,9 +1,12 @@
-import React from 'react';
-import { GlobalStyle } from './GlobalStyle';
+import React from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import { GlobalStyle } from "./GlobalStyle";
 
 const App = () => (
   <div>
-    Start here!
+    <Header />
+    <Home />
     <GlobalStyle />
   </div>
 );
